@@ -22,7 +22,7 @@ function Banner() {
                         <input type="text" className="grow dark:placeholder-black" placeholder="Email" />
                     </label>
                 </div>
-                <button className="btn bg-orange-500 hover:bg-orange-700 border-orange-500 hover:border-orange-500 btn-secondary mt-3">Secondary</button>
+                <button className="btn bg-orange-500 hover:bg-orange-700 border-orange-500 hover:border-orange-500 btn-secondary mt-3">Get Started</button>
             </div>
 
             <div className=" order-1 w-full md:w-1/2 flex justify-center items-center p-4 mt-12">
