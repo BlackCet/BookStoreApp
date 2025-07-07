@@ -6,7 +6,7 @@ function Banner() {
         <div className="max-w-screen-2xl container mx-auto md:px-4 px-2 flex flex-col md:flex-row my-10  dark:bg-gray-200 dark:text-black">
             <div className='order-2 md:order-1 w-full mt-12 md:w-1/2 md:mt-32 '>
                 <div className='space-y-12'>
-                    <h1 className='text-4xl font-bold'>Yoho! Welcome to the great library of wizarding world for some <span className='text-orange-500'>reading?</span></h1>
+                    <h1 className='text-4xl font-bold'>Yoho! Welcome to Openshelf. Ready for some <span className='text-orange-500'>reading?</span></h1>
                     <p className='text-xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quidem, iusto excepturi eveniet dolor officiis quo at ab pariatur praesentium maiores ipsum consectetur dolorem earum, similique dolores nostrum suscipit magni.</p>
                     <label className="input input-bordered flex items-center gap-2 dark:bg-gray-400">
                         <svg

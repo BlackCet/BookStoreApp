@@ -66,7 +66,7 @@ export default function Navbar() {
               {navItems}
             </ul>
           </div>
-          <a className="text-2xl font-bold">PotterShelf</a>
+          <a className="text-2xl font-bold">OpenShelf</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, Navigate } from "react-router-dom"; // Added missing Navigate import
+import { Route, Routes, Navigate } from "react-router-dom"; 
 import Home from "./home/Home";
 import Courses from "./courses/Courses";
 import Signup from "./components/Signup";
@@ -8,10 +8,10 @@ import { Toaster } from 'react-hot-toast';
 import { useAuth } from "./context/AuthProvider";
 
 function App() {
-  const [authUser] = useAuth(); // Accessing authUser from context
+  const [authUser] = useAuth(); 
 
   return (
-    <div className="dark:bg-gray-200 dark:text-black min-h-screen"> {/* Ensure the whole screen is covered */}
+    <div className="dark:bg-gray-200 dark:text-black min-h-screen"> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/course" element={authUser ? <Courses /> : <Navigate to="/signup" />} />
