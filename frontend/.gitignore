@@ -7,18 +7,130 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependency directories
+node_modules/
+jspm_packages/
 
-# Editor directories and files
+# Build output
+dist/
+build/
+dist-ssr/
+out/
+.next/
+.vercel/
+coverage/
+public/build/
+
+# Vite cache
+.vite/
+
+# Production
+.env
+.env.local
+.env.*.local
+.env.test
+.env.development.local
+.env.production.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# IDEs and editors
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.iml
+
+# Optional npm cache directory
+.npm/
+
+# Optional yarn cache directory
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Debug
+debug.log
+*.tgz
+
+# Mac/Linux
+*.bak
+*~
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# MongoDB
+dump/
+*.lock
+*.pid
+
+# PM2 logs
+pids
+*.pid
+*.seed
+logs/
+*.pm2.log
+
+# React Native
+.expo/
+.expo-shared/
+android/app/build/
+ios/Pods/
+*.keystore
+
+# JetBrains
+.idea/
+
+# ESLint / Prettier
+.eslintcache
+.prettiercache
+
+# Firebase
+.firebase/
+.firebaserc
+
+# Storybook
+.storybook-out/
+out-storybook/
+
+# Others
+*.log
+*.pem
+*.key
+*.crt
+*.zip
+*.tar.gz
+*.bak
+*.tmp
+*.backup
+
+# Local databases
+*.sqlite
+*.db
+
+# VS Code Workspaces
+*.code-workspace
+
+# Test snapshots
+__snapshots__/
+*.snap
+
+# Misc
+*.orig

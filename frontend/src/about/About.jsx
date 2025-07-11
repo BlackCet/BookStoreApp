@@ -1,14 +1,14 @@
 
 import Navbar from '../components/Navbar';
-import Course from '../components/Course';
 import Footer from '../components/Footer';
+import About from '../components/About';
 
 function Courses() {
   return (
     <>
     <Navbar/>
     <div className='min-h-screen'>
-    <Course/>
+    <About/>
     </div>
     <Footer/>
     </>
