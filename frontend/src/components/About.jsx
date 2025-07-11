@@ -8,7 +8,7 @@ function About() {
       </p>
 
       <p className="text-lg mb-8 text-gray-700 leading-relaxed text-center">
-        Whether you're exploring <span className="font-medium">JavaScript frameworks</span> or diving into fiction, OpenShelf is designed to keep learning and reading easy, enjoyable, and accessible.
+        Whether you are exploring <span className="font-medium">JavaScript frameworks</span> or diving into fiction, OpenShelf is designed to keep learning and reading easy, enjoyable, and accessible.
       </p>
 
       <p className="text-lg mb-8 text-gray-700 leading-relaxed text-center">
